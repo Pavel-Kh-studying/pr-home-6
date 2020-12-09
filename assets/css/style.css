@@ -2,7 +2,11 @@
   box-sizing: border-box;
 }
 
-nav {
+.header{
+  background-color: rgb(32, 34, 34);
+}
+
+.header-nav {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -13,25 +17,25 @@ nav {
   padding: 30px 25px 15px;
 }
 
-nav > * {
+.header-nav > * {
   margin-bottom: 15px;
 }
 
-header span {
+.header-nav span {
   color: white;
   font-size: 1.7em;
 }
 
-header ul {
+.header-nav ul {
   display: inline-block;
   font-family: "Roboto", sans-serif;
 }
 
-header ul li {
+.header-nav ul li {
   display: inline;
 }
 
-header ul li a {
+.header-nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   padding: 5px;
@@ -39,7 +43,7 @@ header ul li a {
   color: white;
 }
 
-header button {
+.header-nav button {
   background-color: rgb(32, 34, 34);
   color: white;
   text-transform: uppercase;
